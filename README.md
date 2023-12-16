@@ -1,22 +1,29 @@
 # nvim configuration
 
-## Terminal Emulator (optional)
-iTerm2
+## Prereq
+* Homebrew
+  
+* Terminal Emulator iTerm2 (optional)
 ```
 brew install --cask iterm
 ```
 
+* Neovim
+```
 brew install neovim
+```
 
-https://github.com/wbthomason/packer.nvim#quickstart
-git clone --depth 1 https://github.com/wbthomason/packer.nvim\
- ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+* Packer. See https://github.com/wbthomason/packer.nvim#quickstart
 
-
- nvim .
- open packer.lua
- :so
- :PackerSync
-
- Restart nvim
- 
+## Initial setup
+```
+cd ~/.config/nvim
+nvim .
+(ignore errors and press enter)
+(open lua/hoaraujerome/packer.lua)
+:so
+:PackerSync
+q
+:wq
+nvim .
+```
