@@ -3,7 +3,7 @@
 ## Prereq
 * Homebrew
   
-* Terminal Emulator iTerm2 (optional)
+* iTerm2 (optional)
 ```
 brew install --cask iterm
 ```
@@ -13,7 +13,9 @@ brew install --cask iterm
 brew install neovim
 ```
 
-* Packer. See https://github.com/wbthomason/packer.nvim#quickstart
+* ripgrep. See https://github.com/BurntSushi/ripgrep#installation
+  
+* packer. See https://github.com/wbthomason/packer.nvim#quickstart
 
 ## Initial setup
 ```
