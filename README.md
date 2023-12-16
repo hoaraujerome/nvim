@@ -1,4 +1,4 @@
-# neovim_config
+# nvim configuration
 
 ## Terminal Emulator (optional)
 iTerm2
