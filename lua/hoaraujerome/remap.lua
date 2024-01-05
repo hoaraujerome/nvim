@@ -10,3 +10,6 @@ vim.keymap.set('n', '<leader>fg', require('telescope.builtin').git_files, { desc
 vim.keymap.set('n', '<leader>fs', function()
  	require('telescope.builtin').grep_string({ search = vim.fn.input("Grep > ")})
 end, { desc = '[fs] Find string with grep'})
+
+vim.keymap.set('n', '<C-Tab>', ':bnext<CR>', { noremap = true, silent = true, desc = '[CTRL+TAB] Open next buffer'})
+
