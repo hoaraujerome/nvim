@@ -12,4 +12,5 @@ vim.keymap.set('n', '<leader>fs', function()
 end, { desc = '[fs] Find string with grep'})
 
 vim.keymap.set('n', '<C-Tab>', ':bnext<CR>', { noremap = true, silent = true, desc = '[CTRL+TAB] Open next buffer'})
+vim.keymap.set('n', '<C-S-Tab>', ':bprev<CR>', { noremap = true, silent = true, desc = '[CTRL+SHIFT+TAB] Open previous buffer'})
 
