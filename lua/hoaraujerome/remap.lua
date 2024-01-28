@@ -14,3 +14,7 @@ end, { desc = '[fs] Find string with grep'})
 vim.keymap.set('n', '<C-Tab>', ':bnext<CR>', { noremap = true, silent = true, desc = '[CTRL+TAB] Open next buffer'})
 vim.keymap.set('n', '<C-S-Tab>', ':bprev<CR>', { noremap = true, silent = true, desc = '[CTRL+SHIFT+TAB] Open previous buffer'})
 
+-- Half page down / up
+vim.api.nvim_set_keymap('n', '<C-j>', '<C-d><CR>', {noremap = true, silent = true, desc = '[CTRL+j] Scroll down half a page'})
+vim.api.nvim_set_keymap('n', '<C-k>', '<C-u><CR>', {noremap = true, silent = true, desc = '[CTRL+j] Scroll up half a page'})
+
